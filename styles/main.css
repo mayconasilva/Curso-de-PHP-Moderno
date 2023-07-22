@@ -38,6 +38,8 @@ header {
 header > h1 {
   font-family: var(--font_sans);
   font-size: 1.8em;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.45);
 }
 
 main {
@@ -60,4 +62,18 @@ main > p {
   text-align: justify;
   hyphens: auto;
   margin-bottom: 1.15vh;
+}
+
+main > a {
+  color: var(--color0);
+  font-weight: bold;
+}
+
+main > a:hover {
+  color: var(--color1);
+}
+
+.tips {
+  color: var(--color1);
+  font-style: italic;
 }
