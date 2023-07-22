@@ -27,7 +27,7 @@ body {
 body {
   font-family: var(--font_serif);
   font-size: 1.2em;
-  line-height: 1.5vh;
+  line-height: 1.6em;
   padding: 10px;
 }
 
@@ -53,14 +53,14 @@ h1 {
 h2 {
   font-family: var(--font_sans);
   font-size: 1.4em;
-  margin-bottom: 1.2vh;
+  margin-bottom: 1.2em;
   padding: 5px;
 }
 
 p {
   text-align: justify;
   hyphens: auto;
-  margin-bottom: 1.15vh;
+  margin-bottom: 1.15em;
   padding: 5px;
 }
 
