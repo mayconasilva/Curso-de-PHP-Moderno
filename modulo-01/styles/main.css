@@ -28,6 +28,7 @@ body {
   font-family: var(--font_serif);
   font-size: 1.2em;
   line-height: 1.5vh;
+  padding: 10px;
 }
 
 header {
@@ -42,29 +43,28 @@ header > h1 {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.45);
 }
 
-main {
-  padding: 10px;
-}
-
-main > h1 {
+h1 {
   font-family: var(--font_sans);
   font-size: 1.6em;
   margin-bottom: 1.2vh;
+  padding: 5px;
 }
 
-main > h2 {
+h2 {
   font-family: var(--font_sans);
   font-size: 1.4em;
   margin-bottom: 1.2vh;
+  padding: 5px;
 }
 
-main > p {
+p {
   text-align: justify;
   hyphens: auto;
   margin-bottom: 1.15vh;
+  padding: 5px;
 }
 
-main > a {
+a {
   color: var(--color0);
   font-weight: bold;
 }
