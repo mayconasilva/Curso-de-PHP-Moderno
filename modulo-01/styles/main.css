@@ -28,12 +28,12 @@ body {
   font-family: var(--font_serif);
   font-size: 1.2em;
   line-height: 1.6em;
-  padding: 10px;
+  overflow-x: hidden;
 }
 
 header {
   background-color: var(--color0);
-  padding: 5px;
+  padding: 10px;
 }
 
 header > h1 {
@@ -43,33 +43,33 @@ header > h1 {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.45);
 }
 
-h1 {
+main > h1 {
   font-family: var(--font_sans);
   font-size: 1.6em;
   margin-bottom: 1.2vh;
   padding: 5px;
 }
 
-h2 {
+main > h2 {
   font-family: var(--font_sans);
   font-size: 1.4em;
   margin-bottom: 1.2em;
   padding: 5px;
 }
 
-p {
+main > p {
   text-align: justify;
   hyphens: auto;
   margin-bottom: 1.15em;
   padding: 5px;
 }
 
-a {
+main > p > a {
   color: var(--color0);
   font-weight: bold;
 }
 
-main > a:hover {
+main > p > a:hover {
   color: var(--color1);
 }
 

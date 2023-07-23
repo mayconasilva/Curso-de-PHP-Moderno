@@ -10,9 +10,13 @@
 
 <body>
 
-    <h1><?php echo "Olá mundo! 🌏"; ?></h1>
+    <header>
+        <h1><?php echo "Olá mundo! 🌏"; ?></h1>
+    </header>
 
-    <p>Vamos tentar me livrar da maldição!</p>
+    <main>
+        <p>Vamos tentar me livrar da maldição!</p>
+    </main>
 
 </body>
 

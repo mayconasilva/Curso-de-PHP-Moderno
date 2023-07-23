@@ -9,9 +9,11 @@
 </head>
 
 <body>
-    <h1>Dados do servidor</h1>
+    <header>
+        <h1>Dados do servidor</h1>
+    </header>
 
-    <?php phpinfo(); ?>
+    <main><?php phpinfo(); ?></main>
 
 
 </body>

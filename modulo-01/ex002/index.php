@@ -9,15 +9,19 @@
 </head>
 
 <body>
-    <h1>Exemplo PHP</h1>
+    <header>
+        <h1>Exemplo PHP</h1>
+    </header>
 
-    <p>
-        <?
-        date_default_timezone_set('America/Sao_Paulo');
-        echo "Hoje é dia " . date("d/M/Y");
-        echo " e a hora atual é " . date("G:i:s");
-        ?>
-    </p>
+    <main>
+        <p>
+            <?
+            date_default_timezone_set('America/Sao_Paulo');
+            echo "Hoje é dia " . date("d/M/Y");
+            echo " e a hora atual é " . date("G:i:s");
+            ?>
+        </p>
+    </main>
 
 
 
